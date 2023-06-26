@@ -1,0 +1,13 @@
+#Python Install:
+https://www.youtube.com/watch?v=yivyNCtVVDk
+
+#Assignment:
+https://drive.google.com/drive/folders/1du6WlHWFeSLESzWFXpzExO7XmS_QX0_g?usp=sharing
+
+#Recording video available:
+https://drive.google.com/drive/folders/18tdwBHGtoUvEODBLfpuacuZd7ZJ4VgCV?usp=sharing 
+
+#Other link shared:
+Loop:
+https://colab.research.google.com/drive/1W5jwlPytdAFL0F4tIYzrlIxEf06XrcTM?usp=sharing
+
