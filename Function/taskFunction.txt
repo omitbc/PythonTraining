@@ -1,0 +1,21 @@
+1.Write a function in python that accepts 3 values and returns the maximum of three numbers.
+2.Function to calculate the factorial of given number.
+3.Function to print fibonacis series upto the number of term given by user.
+2.function for checking Prime number .
+3.Write a function prodDigits() that inputs a number and returns the product of digits of that number.
+4.Function to remove the duplicate entry in list. e.g.[1,2,3,1,2]=>[1,2,3]
+5.
+makeBricks:
+We want to make a row of bricks that is goal inches long. 
+We have a number of small bricks (1 inch each) and big bricks (5 inches each). 
+Return true if it is possible to make the goal by choosing from the given bricks. 
+
+Examples.
+makeBricks(3, 1, 8) → true
+makeBricks(3, 1, 9) → false
+makeBricks(3, 2, 10) → true
+
+def makeBricks(small, big, goal){
+//your code here...
+}
+6.Write a function to count odd numbers in the list.
