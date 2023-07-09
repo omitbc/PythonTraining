@@ -1,0 +1,106 @@
+1.Write a Python program to count the number of strings from a given list of strings in which first and last characters are the same.
+Sample List : ['abc', 'xyz', 'aba', '1221']
+Expected Result : 2
+
+2. Write a Python program to remove duplicates from a list.
+
+3.Write a Python program to check if a list is empty or not.
+
+4.Write a Python program to replace the last element in a list with another list.
+Sample data : [1, 3, 5, 7, 9, 10], [2, 4, 6, 8]
+Expected Output: [1, 3, 5, 7, 9, 2, 4, 6, 8]
+
+5.Write a python program to calculate the frequency of each element in the given list.
+  e.g. ['a','b','c','c','b','d']
+	=>{'a':1,'b':2,'c':2,'d':1}
+
+6.Write a Python program to remove consecutive (following each other continuously) duplicates (elements) from a given list.
+Original list:
+[0, 0, 1, 2, 3, 4, 4, 5, 6, 6, 6, 7, 8, 9, 4, 4]
+After removing consecutive duplicates:
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 4]
+
+7. Create one function that accept any string and check consecutive repeat number is present or not.If present, return true else false.
+   e.g. '9860775460'=>return true since 7 is consecutively repeat
+	'9860486474'=>return false since no repeat consecutively
+	=>number=input("Number=")
+	if(consecutivelyRepeat(number)):
+	   print("There is consecutive repeat no present in number")
+	else:
+	   print("Not present consecutive repeat no.")
+
+8. Write a Python program to Zip two given lists of lists.
+   Original lists:
+	[[1, 3], [5, 7], [9, 11]]
+	[[2, 4], [6, 8], [10, 12, 14]]
+   Zipped list:
+	[[1, 3, 2, 4], [5, 7, 6, 8], [9, 11, 10, 12, 14]]
+=>We have zip() method in python....zip(l1,l2)...Try using it.
+
+9.Write a Python program to count integers in a given mixed list.
+Original list:
+	[1, 'abcd', 3, 1.2, 4, 'xyz', 5, 'pqr', 7, -5, -12.22]
+	Number of integers in the said mixed list: 6
+
+10.Write the program to find the first maximum and also second maximum in the list.
+  e.g. [2,5,10,3,1,6,11,8]
+      maximum:11,secondmaximum:10
+
+11. Update set1 by adding items from set2, except common items.
+   Given:
+	set1 = {10, 20, 30, 40, 50}
+	set2 = {30, 40, 50, 60, 70}
+   Expected output:
+	set1={70, 10, 20, 60}
+
+12.Remove items from set1 that are not common to both set1 and set2
+
+  Given:
+	set1 = {10, 20, 30, 40, 50}
+	set2 = {30, 40, 50, 60, 70}
+  Expected output:
+	{40, 50, 30}
+
+13. What is the key difference between tuples and lists?
+
+14. Slicing Practice:
+my_list = ['Carl Cox', 'Fred again..', 'Sonny Fodera', 'MK', 'Denis Sulta','Boots & Kats']
+print(my_list[1:4:1])
+my_list[1:4:1] 
+my_list[1:4:1] 
+my_list[-1:-6:-3]
+
+15.Look and try it out strip() : 
+The strip() method removes any white spaces before and after the string.
+
+e.g.str2 = " Silver Spoon "
+print(str2.strip)
+Output:
+Silver Spoon
+
+rstrip() : 
+the rstrip() removes any trailing characters.
+Example:
+str3 = "Hello !!!"
+print(str3.rstrip("!")
+ 
+lstrip()
+
+16.Look and try it out split() method in list:
+ -> split() method splits the give string at the specified instance and returns the separated strings as list items.
+ -> Example:
+	str2 = "Silver Spoon"
+	print(str2.split(" ")) #Splits the string at the whitespace " ".
+    Output:
+	['Silver', 'Spoon']
+
+17. Look and try it out Join() method in string.
+   -> We can use python string join() function to join a list of strings.
+   -> Example:
+	vowels = ["a", "e", "i", "o", "u"]
+	vowelsCSV = ",".join(vowels)
+	print("Vowels are = ", vowelsCSV)
+
+	vowels = ["a", "e", "i", "o", "u"]
+	concatAll = "".join(vowels)
+	print("Vowels are = ", concatAll)

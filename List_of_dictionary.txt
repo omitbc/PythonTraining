@@ -1,0 +1,39 @@
+def updateData(selectedData):
+  print()
+  selectedData['name']=input("Name=")
+  print("\nSelected Data Updated Value is : ",selectedData)
+
+student=[
+    {
+        'id':1,
+        'name':'xyz'
+    },
+    {
+        'id':2,
+        'name':'pqr'
+    },
+    {
+        'id':3,
+        'name':'ram'
+    },
+    {
+        'id':4,
+        'name':'hari'
+    }
+]
+print(f"Student detail is : {student}\n")
+
+check=input("Do you want to update the student detail?y/n:")
+if check in ('y','yes'):
+    print()
+    selectedStudentId=int(input("Enter the student id that you want to update:"))
+    [selectedData]=list(filter(lambda x:x["id"]==selectedStudentId,student))
+    print(f"Selected Data is : {selectedData}")
+    updateData(selectedData)
+
+print("\n\nFinal Student detail : ",student)
+
+Username -- Nsingh1@georgeinstitute.org.in
+Password --  uf73$GLy
+
+ht@georgeinstitute.org
